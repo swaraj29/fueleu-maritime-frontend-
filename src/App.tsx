@@ -1,9 +1,7 @@
-import React from 'react'
+import Dashboard from './adapters/ui/pages/Dashboard'
 
-const  App = () => {
-  return (
-    <div className='bg-blue-800'>App</div>
-  )
+const App = () => {
+  return <Dashboard />
 }
 
-export default  App
+export default App
